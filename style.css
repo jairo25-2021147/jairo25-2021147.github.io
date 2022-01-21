@@ -1,0 +1,142 @@
+body {
+  background-image: url("background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Camphor", "Open Sans", "Segoe UI", sans-serif;
+  font-size: 14pt;
+  color: #32325d;
+}
+
+.container {
+  background: white;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  /* text-align: center; */
+  margin: 100px auto;
+  width: 50%;
+  padding: 10px;
+}
+
+#job-form {
+  padding: 30px 85px;
+}
+
+#job-form h2 {
+  font-size: 30pt;
+  font-weight: 550;
+  text-align: center;
+}
+
+#job-form h3 {
+  font-size: 25pt;
+  font-weight: 450;
+  text-align: left;
+  font-weight: 550;
+  margin: 5px 0 6px 0;
+}
+
+.required:before {
+  content: "• ";
+  color: green;
+  font-size: 20pt;
+  text-align: right;
+}
+
+#required-text {
+  text-align: right;
+  font-size: 14pt;
+  font-weight: 400;
+  color: #6b7c93;
+}
+
+hr {
+  margin: 30px 0;
+}
+
+.text-input {
+  width: 100%;
+  color: #32325d;
+  background-color: #f0f5fa;
+  border: 0;
+  font-weight: 470;
+  font-size: 13pt;
+  padding: 10px;
+  margin-bottom: 8px;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  color: #32325d;
+  background-color: #f0f5fa;
+  border: 0;
+  font-weight: 470;
+  font-size: 13pt;
+  padding: 10px;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+}
+
+.file-input {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+select {
+  margin-left: 0;
+  margin-top: 10px;
+  width: 30%;
+  color: #32325d;
+  background-color: #f0f5fa;
+  font-weight: 470;
+  font-size: 13pt;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+label {
+  text-align: left;
+  display: block;
+  color: #32325d;
+  font-weight: 470;
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+p {
+  text-align: left;
+}
+
+option {
+  padding: 5px;
+}
+
+.space {
+  text-align: left;
+  margin: 9px;
+}
+
+.button {
+  white-space: nowrap;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 14px;
+  margin: 0;
+  margin-top: 20px;
+  box-shadow: 0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%);
+  background: #6772e5;
+  border-radius: 4px;
+  font-family: Camphor, Open Sans, Segoe UI, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  color: #fff;
+  text-decoration: none;
+  text-shadow: none;
+  transition: all 0.15s ease;
+}
+
+.button:hover {
+  border-color: rgba(255, 255, 255, 1);
+}
